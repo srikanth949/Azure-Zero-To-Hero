@@ -1,0 +1,9 @@
+Imagine a city (Region):
+
+Each neighborhood (Availability Zone) has separate power & water.
+
+Each apartment building (Availability Set) has multiple backup generators (Fault Domains).
+
+So even if one building loses power (FD fails), others stay running.
+If one neighborhood floods (Zone outage), others in the city are fine.
+If the whole city faces a disaster, the nearby city (Paired Region) takes over.
